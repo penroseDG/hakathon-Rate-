@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: gray;
+    width: 700px;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+}
+
+.container h3 {
+    color: black;
+    margin-bottom: 20px; 
+}
+
+.container .box-feedback {
+    width: 650px;
+    height: 450px;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom : 40px;
+}
+
+.container .box-feedback h4 {
+    margin-bottom: 20px; 
+}
+
+.score {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.choose {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 5px;
+}
+
+.choose button {
+    width: 30px;
+    height: 30px;
+    background-color: blue; /* Màu nền mặc định */
+    color: white;
+    border: none;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s; 
+}
+
+.choose button:hover {
+    background-color: #ff69b4; /* Màu nền khi di chuột vào */
+}
